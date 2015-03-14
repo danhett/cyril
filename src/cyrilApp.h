@@ -25,14 +25,14 @@
 using namespace ofx::IO;
 
 
-class cyrilApp : public ofBaseApp{
-  
+class cyrilApp : public ofBaseApp
+{  
 	ofxEditor editor;
   ofxBeat beat;
   
-	//ofxSyphonServer mainOutputSyphonServer;
-	//ofxSyphonClient mClient;
-  //ofxOscReceiver receiver;
+    ofxSyphonServer mainOutputSyphonServer;
+	ofxSyphonClient mClient;
+  ofxOscReceiver receiver;
   
   //ofxXmlSettings settings;
   string fileName;

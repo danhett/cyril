@@ -160,8 +160,8 @@ int main( )
     colorNameMap["whiteSmoke"] = ofColor::whiteSmoke;
     colorNameMap["yellowGreen"] = ofColor::yellowGreen;
   
-    int X_MAX = 640;
-    int Y_MAX = 480;
+    int X_MAX = 1280;
+    int Y_MAX = 800;
     ofSetupOpenGL(X_MAX, Y_MAX, OF_WINDOW);
   
 	ofRunApp(new cyrilApp());
